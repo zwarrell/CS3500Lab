@@ -17,5 +17,19 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Form loaded successfully!");
+        }
+
+        private void junkFunction()
+        {
+            // Does nothing...
+        }
+
+        private int doSomething(int x)
+        {
+            return x * x;
+        }
     }
 }
