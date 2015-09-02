@@ -23,5 +23,10 @@ namespace WindowsFormsApplication1
         {
             // Do Nothing!
         }
+
+        private static void testBranchMethodOnly()
+        {
+            // This method should only appear in the testBranch portion of the repository
+        }
     }
 }
